@@ -21,9 +21,6 @@ class String
 #  sentence_array = self.split(/[.!?]/)
 #  sentence_array.delete_if{|sentence|sentence.empty?}
 #  sentence_array.count
-
   self.split(/[.!?]/).delete_if{|sentence|sentence.empty?}.count
-
-
   end
 end
