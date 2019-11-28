@@ -19,7 +19,7 @@ class String
   def count_sentences
 # self.split(/[.!?]/).reject {|x|x.empty?}.size
   sentence_array = self.split(/[.!?]/)
-  sentence_array.delete_at(sentence_array.index(" "))
+  sentence_array.delete_at(sentence_array.index(""))
   binding.pry
   sentence_array.count
   #.reject
